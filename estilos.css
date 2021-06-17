@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#principal{
+    background-color: #ccc;
+    border-top: 1px solid transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.barra{
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+
+.barra nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 10px;
+        
+    
+}
+ .barra nav a{
+   text-transform: uppercase;
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: #333;
+   text-decoration: none;
+
+ }
+ .barra nav a:hover{
+     color:gray;
+ }
+ 
+
+.banner img{
+    width: 100%;
+  
+   
+}
+
+.negrito{
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+    
+}
+
+.sobre section img{
+   width: 150px;
+   height: 150px;
+   float:left;
+   margin-right: 15px;
+ 
+   
+}
+.center{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.subtitulo{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.texto p {
+    
+    padding-bottom: 20px;
+}
+ .local{
+     text-align: center;
+     background-image: linear-gradient(white, gray)
+ }
+
+ .bene{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    
+ }
+ .bullet{
+    border: 2px solid black;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+   
+    
+}
+ .beneficios{
+    margin: 0 auto 0 auto;
+    width: 580px;
+    
+ }
+ .beneficios nav li{
+     list-style-type: none;
+ }
+.beneficios nav img{
+    width: 350px;
+    height: auto;
+    float: right;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 15px 5px #000000;
+  
+}
+
+.video{
+    margin-left: 31%;
+    margin-right: 33%;
+    margin-bottom: 5%;
+}
+.ultima{
+    background-color:#828282;
+   
+}
+.logo{
+    background-image: url(./imagens-barbearia/bg.jpg);
+    color: white;
+ }
+
+ .logo section img{
+     margin-left: 43%;
+ }
+ .logo footer p{
+    margin-left: 42%;
+    padding-bottom: 2%;
+}
