@@ -1,0 +1,40 @@
+function calcular() {
+  var tn1 = window.document.getElementById('txtn1');
+  var tn2 = window.document.getElementById('txtn2');
+
+  var operacao = window.document.getElementById('operacao');
+  var resultado = window.document.getElementById('resultado');
+
+  var n1 = Number(tn1.value);
+  var n2 = Number(tn2.value);
+
+  var operador = operacao.value; //Obtendo o valor do <option> selecionado
+  if (operador == 'adicao') {
+    var s = n1 + n2;
+  }
+  if (operador == 'subtracao') {
+    var s = n1 - n2;
+  }
+  if (operador == 'multiplicacao') {
+    var s = n1 * n2;
+  }
+  if (operador == 'divisao') {
+    var s = n1 / n2;
+  }
+
+
+  resultado.innerHTML = `A ${operador} entre ${n1} e ${n2} é igual a ${s}`
+}
+<div id="area" name="area">
+  <h2>CALCULANDO VALORES...</h2>
+  <input type="number" name="textn1" id="txtn1" placeholder="Primeiro Valor">
+  <input type="number" name="textn2" id="txtn2" placeholder="Segundo Valor">
+  <label for="operacao">Selecione a operação:</label>
+  <select name="operacao" id="operacao">
+    <option value="adicao">Adição</option>
+    <option value="subtracao">Subtração</option>
+    <option value="multiplicacao">Multiplicação</option>
+    <option value="divisao">Divisão</option>
+  </select>
+  <input name="calcular" type="button" value="Calcular" onclick="calcular()">
+  <div id="resultado" name="resultado">Resultado</div>
