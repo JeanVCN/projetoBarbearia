@@ -1,12 +1,9 @@
 function calcular() {
-  var tn1 = window.document.getElementById('txtn1');
-  var tn2 = window.document.getElementById('txtn2');
+  var n1 = window.document.getElementById('txtn1');
+  var n2 = window.document.getElementById('txtn2');
 
   var operacao = window.document.getElementById('operacao');
   var resultado = window.document.getElementById('resultado');
-
-  var n1 = Number(tn1.value);
-  var n2 = Number(tn2.value);
 
   var operador = operacao.value; //Obtendo o valor do <option> selecionado
   if (operador == 'adicao') {
